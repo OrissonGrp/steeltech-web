@@ -2065,7 +2065,7 @@ img{
 }
 
 .services-block .inner-box .text{
-	position:relative;
+	/* position:relative; */
 	font-size:16px;
 	line-height:1.7em;
 	color:#555555;
