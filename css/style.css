@@ -6872,6 +6872,14 @@ background: linear-gradient(271deg, #FF6B6B 0%, #4D0AA4 100%);
 -webkit-text-fill-color: transparent;
 font-weight: 800 !important;
 }
+.headlines{
+	background: -moz-linear-gradient(271deg, #ED3500 0%, #093FB4 100%);
+background: -webkit-linear-gradient(271deg, #ED3500 0%, #093FB4 100%);
+background: linear-gradient(271deg, #ED3500 0%, #093FB4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 800 !important;
+}
 
 
 .about-section-two .image-column{
