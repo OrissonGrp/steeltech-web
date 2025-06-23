@@ -678,7 +678,7 @@
 		padding:0px;
 		outline:none;
 		width:100%;
-		background:#df6512;
+		background:#d4242a;
 		-webkit-border-radius:0px;
 		-ms-border-radius:0px;
 		-o-border-radius:0px;
@@ -733,7 +733,7 @@
 		color:#ffffff;
 		font-weight:600;
 		font-size:15px;
-		background:#df6512;
+		background:#d4242a;
 		text-align:left;
 	}
 	
@@ -749,7 +749,7 @@
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		background:#df6512;
+		background:#d4242a;
 		color:#ffffff !important;
 	}
 	

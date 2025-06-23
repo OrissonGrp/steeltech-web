@@ -3485,7 +3485,7 @@ img{
 .main-footer {
     position: relative;
     background-color: #030e22;
-    margin-top: 190px;
+    /* margin-top: 190px; */
 }
 
 .main-footer .footer-widget{
@@ -7356,7 +7356,7 @@ font-weight: 800 !important;
 .feature-block-five .icon-box{
 	position: relative;
 	display: block;
-	margin-bottom: 40px;
+	margin-bottom: 6px;
 }
 
 .feature-block-five .icon-box .icon{
