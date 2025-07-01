@@ -2065,8 +2065,8 @@ img{
 }
 
 .services-block .inner-box .text{
-	/* position:relative; */
-	font-size:16px;
+	position:relative; 
+	font-size:13px;
 	line-height:1.7em;
 	color:#555555;
 	padding:0px 22px;
@@ -2103,6 +2103,35 @@ img{
 }
 
 .services-block .inner-box:hover .arrow{
+	background-color:#d4242a;
+	color:#ffffff;
+}
+
+.services-block .inner-box .arrows {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    margin-bottom: -81px;
+    width: 44px;
+    height: 44px;
+    color: #d4242a;
+    font-size: 10px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 800;
+    margin-left: -20px;
+    background-color: #ffffff;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-box-shadow: 0px 10px 15px rgba(0,0,0,0.05);
+    -ms-box-shadow: 0px 10px 15px rgba(0,0,0,0.05);
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.05);
+}
+.services-block .inner-box:hover .arrows{
 	background-color:#d4242a;
 	color:#ffffff;
 }
@@ -7443,13 +7472,13 @@ font-weight: 800 !important;
 	margin-left: 3px;
 }
 
-.feature-block-five:nth-child(2) .inner-box:before{
+/* .feature-block-five:nth-child(2) .inner-box:before{
 	
 }
 
 .feature-block-five:nth-child(3) .inner-box:before{
 	
-}
+} */
 
 /*** 
 
