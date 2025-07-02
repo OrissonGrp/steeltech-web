@@ -2229,14 +2229,17 @@ img{
 
 ***/
 
-.services-section-two{
-	position:relative;
-	padding:115px 0px 80px;
-	margin: 0px 30px;
-	background-color:#001e57;
-	-webkit-box-shadow:0px 15px 30px rgba(0,0,0,0.10);
-	-ms-box-shadow:0px 15px 30px rgba(0,0,0,0.10);
-	box-shadow:0px 15px 30px rgba(0,0,0,0.10);
+.services-section-two {
+    position: relative;
+    padding: 115px 0px 80px;
+    margin: 0px 0px;
+    /* background-color: #001e57; */
+    -webkit-box-shadow: 0px 15px 30px rgba(0,0,0,0.10);
+    -ms-box-shadow: 0px 15px 30px rgba(0,0,0,0.10);
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.10);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .services-section-two .inner-container{
@@ -3435,7 +3438,7 @@ img{
     position: relative;
     padding: 50px 0px 50px;
     margin: 60px 30px;
-    margin-bottom: -20px;
+    margin-bottom: -42px;
     background-color: #d4242a;
     z-index: 1;
 }
@@ -3513,8 +3516,9 @@ img{
 
 .main-footer {
     position: relative;
-    background-color: #030e22;
-    /* margin-top: 190px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main-footer .footer-widget{
@@ -4036,7 +4040,6 @@ img{
 
 .contact-map-section .outer-container{
 	padding:0px 20px;
-	margin-bottom: -140px;
 }
 
 .contact-map-section .map-outer{
@@ -5967,37 +5970,7 @@ a.ui-button:active, .ui-button:active,
 
 ***/
 
-.newsletter-section-two{
-	position:relative;
-	padding:100px 0px;
-	background:#ffffff;
-	z-index: 1;
-}
 
-.newsletter-section-two .title-box{
-	position: relative;
-	max-width: 980px;
-	margin: 0 auto 50px;
-	text-align: center;
-}
-
-.newsletter-section-two .title-box h2{
-	position:relative;
-	color:#001e57;
-	font-size:32px;
-	font-weight:700;
-	line-height:1.3em;
-	margin-bottom: 20px;
-}
-
-.newsletter-section-two .title-box .text{
-	position:relative;
-	color:#222222;
-	font-size:16px;
-	font-weight:400;
-	line-height:1.6em;
-	margin-bottom: 0px;
-}
 
 /*Subscribe Form Two*/
 
